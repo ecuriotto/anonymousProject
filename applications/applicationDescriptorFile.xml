@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="studentRegistrationApp" version="1.0" profile="User" homePage="publicRegistrationPage" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_bootstrapdefaulttheme">
+        <displayName>studentRegistrationApp</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_publicRegistrationPage" token="publicRegistrationPage"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="publicRegistrationPage">
+                <displayName>My menu</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
