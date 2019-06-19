@@ -1,0 +1,75 @@
+{
+  "designerVersion" : "1.9.45",
+  "id" : "RequestApplied",
+  "name" : "RequestApplied",
+  "lastUpdate" : 1560952462674,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "labelHidden" : {
+        "type" : "constant",
+        "value" : true
+      },
+      "label" : {
+        "type" : "interpolation",
+        "value" : "Default label"
+      },
+      "labelPosition" : {
+        "type" : "constant",
+        "value" : "top"
+      },
+      "labelWidth" : {
+        "type" : "constant",
+        "value" : 4
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "<h3>Thank you for the information, you'll receive an email to complete your survey"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      }
+    },
+    "reference" : "064f8876-6619-47a4-a84c-970dbdf55015",
+    "hasValidationError" : false,
+    "id" : "pbText"
+  } ] ],
+  "assets" : [ {
+    "id" : "9f220583-dfaf-4a32-a698-1dd69adf7153",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "d742c84a-c5d1-4acf-943c-1ade030a0eec",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "hasValidationError" : false,
+  "uuid" : "02a277df-ee37-4335-bdeb-8b44c8f9aac2",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
