@@ -3,6 +3,7 @@
     <application token="studentRegistrationApp" version="1.0" profile="User" homePage="publicRegistrationPage" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_bootstrapdefaulttheme">
         <displayName>studentRegistrationApp</displayName>
         <applicationPages>
+            <applicationPage customPage="custompage_RequestApplied" token="requestApplied"/>
             <applicationPage customPage="custompage_publicRegistrationPage" token="publicRegistrationPage"/>
         </applicationPages>
         <applicationMenus>

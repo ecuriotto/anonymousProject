@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.45",
   "id" : "StudentInstantiationRegistrationForm",
   "name" : "StudentInstantiationRegistrationForm",
-  "lastUpdate" : 1560949458251,
+  "lastUpdate" : 1560952590682,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -357,7 +357,7 @@
           },
           "targetUrlOnSuccess" : {
             "type" : "interpolation",
-            "value" : "/bonita"
+            "value" : "/bonita/apps/studentRegistrationApp/requestApplied"
           },
           "collectionPosition" : {
             "type" : "constant"
@@ -387,6 +387,29 @@
           "class" : {
             "type" : "constant",
             "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+          },
+          "assign" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "url" : {
+            "type" : "interpolation"
+          },
+          "responseStatusCode" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "dataFromSuccess" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "closeOnSuccess" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : ""
           }
         },
         "reference" : "936aa087-5e95-4bca-95e1-14f0e6fe90be",
